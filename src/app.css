@@ -1,0 +1,25 @@
+
+/* Styles for the scrollbar track (the background) */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: bg-gray-300; /* Replace with your desired color */
+}
+
+/* Styles for the scrollbar handle (the thumb) */
+::-webkit-scrollbar-thumb {
+    border-radius: 1.25rem; /* This makes it rounded-2xl */
+    background-color: bg-gray-600; /* Replace with your desired color */
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+/* Styles for the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: bg-gray-700; /* Replace with your desired color */
+}
+
+/* If you also want to style the vertical scrollbar */
+::-webkit-scrollbar-track-vertical {
+    width: 12px;
+    background-color: bg-gray-300; /* Replace with your desired color */
+}
