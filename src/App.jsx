@@ -6,7 +6,7 @@ import BlurBackgroundComponent from "./Midst";
 
 import { Configuration, OpenAIApi } from "openai";
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
   //apiKey:"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",
 });
 const openai = new OpenAIApi(configuration);
@@ -113,6 +113,7 @@ const App = () => {
           <div className="bg-gray-200 border rounded-2xl ">
             <BlurBackgroundComponent
               setMenu={setMenu}
+              Models={Models}
               setModels={setModels}
               Auth={Auth}
               setAuth={setAuth}
