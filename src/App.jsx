@@ -6,8 +6,7 @@ import BlurBackgroundComponent from "./Midst";
 
 import { Configuration, OpenAIApi } from "openai";
 const configuration = new Configuration({
-  apiKey: "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",
-  //apiKey:"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",
+  apiKey: import.meta.env.VITE_OPENAI_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
